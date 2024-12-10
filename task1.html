@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day</title>
+    <style>
+        body{
+            background-color: blue;
+        }
+        .container{
+             display: flex;
+            justify-content: center;
+            margin-top:50px ;
+            gap: 30px;
+            margin-top: 200px;
+    
+        }
+        .b1{
+            width: 50%;
+            height: 150px;
+            background-color: white;
+         display:inline-table ;
+         border-radius: 10px;
+         border: 4px solid red ;
+         font-size:100px;
+         text-align: center;
+         
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="b1">
+    <script type="text/JavaScript">
+    var date=new Date();
+    document.writeln(date.getDate ());
+   </script>
+</div>
+<div class="b1">
+    <script type="text/JavaScript">
+    var day=new Date();
+    document.writeln(day.getDay());
+    </script>
+</div>
+<div class="b1">
+  <script type="text/JavaScript">
+    var hour=new Date();
+    document.writeln(hour.getHours());
+   </script>
+</div>
+<div class="b1">
+    <script type="text/JavaScript">
+    var minute=new Date();
+    document.writeln(minute.getMinutes());
+    </script>
+</div>
+<div class="b1">
+     <script type="text/JavaScript">
+    var milli=new Date();
+    document.writeln(milli.getMilliseconds());
+    </script>
+</div>
+<div class="b1">
+   <script type="text/JavaScript">
+    var date=new Date();
+    document.write(date.getMonth());
+   </script>
+</div>
+    </div>
+    
+</body>
+</html>

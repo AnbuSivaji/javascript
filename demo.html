@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hello(){
+            document.getElementById("demo").innerHTML="Hello JavaScript!";
+        }
+    </script>
+</head>
+<body>
+    <h2>
+    What can JavaScript Do?
+    </h2>
+    <p id="demo" style="color:green">Javascript can change HTML content.
+
+    </p>
+    <button type="button" onclick="hello()">Click me!</button>
+
+    <p id="demo2">
+        JavaScript can chnage the html content.
+    </p>
+    <button type="button" onclick="document.getElementById('demo2').innerHTML='Hello Javascript!'"> Click Me!</button><br><br>
+
+   <script type="text/JavaScript">
+   var a=33;
+   var b=10;
+   var c="test";
+   var linebreak="<br>";
+   
+   document.write("a+b=");
+   result=a+b;
+   document.write(result);
+   document.write(linebreak);
+
+    document.write("a-b=");
+   result=a-b;
+   document.write(result);
+   document.write(linebreak);
+
+    document.write("a/b=");
+   result=a/b;
+   document.write(result);
+   document.write(linebreak);
+
+    document.write("a%b=");
+   result=a%b;
+   document.write(result);
+   document.write(linebreak);
+
+   a=++a;
+   document.write("++a=");
+   result=++a;
+   document.write(result);
+   document.write(linebreak);
+
+   b=--b;
+   document.write("--b=");
+   result=--b;
+   document.write(result);
+   document.write(linebreak); 
+
+    
+   document.write("<br/>");
+   </script>
+   Set the variables to different values and then try... <br>
+    
+<script type="text/JavaScript">
+    var age=20;
+    if(age>18){
+        document.write("<b>Qualifies the Driving</b>");
+    }else{
+        document.write("<b>Does not qualify for driving</b>")
+    }
+    
+</script>
+<script type="text/JavaScript">
+    var count;
+    document.write("Starting loop"+"<br/>")
+    for(count=0;count<10;count++){
+    document.write("current count"+count)
+document.write("<br/>")}
+document.write("Loop Stoped!")
+
+
+
+
+
+</script>
+<p>Set the variable to different value and then try....</p>
+<script type="text/JavaScript">
+    var count=0;
+    document.write("Starting loop")
+    while(count<10){
+    document.write("current count"+count+"<br/>")
+      count++;}
+document.write("Loop Stoped!")
+
+</script>
+<script type="text/JavaScript">
+      var aProperty;
+      document.write("Navigator Object Properties <br/>");    
+for
+</script>
+<script type="text/JavaScript">
+    var x=1;
+    document.write("Entering the loop <br/>");
+    while(x<20){
+      if (x==5){
+        break;
+
+      }
+      x=x+1;
+      document.write(x+"<br/>");
+
+    }
+     document.write("Exiting the loop!");
+</script>
+<p>Set the new value</p>
+<script type="text/JavaScript">
+     var x=1;
+    document.write("Entering the loop <br/>");
+    while(x<10){
+        x=x+1;
+      if (x==5){
+        continue;
+
+      }
+    
+      document.write(x+"<br/>");
+
+    }
+     document.write("Exiting the loop!");
+    document.writeln("<br/>");
+</script>
+<script type="text/JavaScript">
+    var date=new Date();
+    document.writeln("Today day "+date.getDate ());
+</script>
+<script type="text/JavaScript">
+    var day=new Date();
+    document.writeln(day.getDay());
+</script>
+<script type="text/JavaScript">
+    var hour=new Date();
+    document.writeln(hour.getHours());
+</script>
+<script type="text/JavaScript">
+    var minute=new Date();
+    document.writeln(minute.getMinutes());
+</script>
+<script type="text/JavaScript">
+    var milli=new Date();
+    document.writeln(milli.getMilliseconds());
+</script>
+<script type="text/JavaScript">
+    var date=new Date();
+    document.write(date.getMonth());
+</script>
+<script>
+    function getcube(number){
+        alert(number*number*number);
+    }
+</script>
+<form >
+    <input type="button" name="" id="" value="click" onclick="getcube(5)">
+</form>
+<script>
+    function msg(){
+        alert("Hello Thhis is a message");
+    }
+</script>
+<form >
+    <input type="button" name="" id="" value="click" onclick="msg(1)">
+</form>
+<script>
+    function getInfo(){
+        return "Hello guys how are you?";
+    }
+</script>
+<script>
+    document.write(getInfo());
+</script>
+
+<script type="text/JavaScript">
+    var emp
+
+</script>
+
+<script type="type/JavaScript">
+    var emp=new Object();
+    emp.id=101;
+    emp.name="Anbu";
+    emp.salary=50000;
+    document.write(emp.id+""emp.name+""+emp.salary);
+    
+
+</script>
+</body>
+</html>

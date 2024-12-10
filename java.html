@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+</head>
+<body>
+<script>
+
+    const emp =new Object();
+    emp.id=101;
+    emp.name="Anbu";
+    emp.salary=50000;
+    document.write(emp.id+":"+emp.name+":"+emp.salary);
+    </script>
+   
+  <p id="demo"></p>
+
+<script>
+
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+}
+
+
+let text = "";
+for (let x in person) {
+  text += person[x] + " ";
+}
+document.getElementById("demo").innerHTML = text;
+
+</script>
+<script>
+    function  emp (id,name,salary){
+       this.id=id;
+       this.name=name;
+       this.salary=salary;
+
+
+    }
+    e= new emp(103,"Anbu",50000);
+    document.writeln(e.id+":"+e.name+":"+e.salary);
+</script>
+<script type="text/JavaScript">
+//Array
+var stu=[11,12,13,14,15];
+for(i=0;i<stu.length;i++)
+document.write(stu[i]+("<br/>"))
+</script>
+<script type="text/JavaScript">
+  var i;
+  var emp=new array;
+  emp[0]="Anbu";
+  emp[1]="Deepak";
+  emp[2]="Jaimurugan";
+  for(i=0;i<emp.length;i++){
+    document.write(emp[i] +"<br/>");
+  }
+
+</script>
+<script type="text/JavaScript">
+  var cus=new array(2.3,2.4,2.5);
+  for(k=0;k<cus.length;k++){
+    document.write(cus[k] +"<br/>")
+  }
+</script>
+<script type="text/JavaScript">
+  var arr1=[1,2,3];
+  var arr2=[4,5,6];
+  var result=arr1.concat(arr2);
+  document.writeln(result);
+</script>
+<script type="text/JavaScript">
+  var i;
+  var emp=new array ();
+  emp[0]= "Anbu";
+  emp[1]= "Deepak";
+  emp[2]= "Jaimurugan";
+result=emp.copyWithin(0,1,2);
+document.writeln(result);
+  
+</script>
+<script type="text/JavaScript">
+  var arr=["Anbu","Ajith","vijay"];
+  var itr=arr.entries();
+  document.write("After applying the entries:"+ "<br>");
+  for(var e of itr){document.write(e+"</br>");
+
+  }
+  
+
+</script>
+<script type="text/JavaScript">
+  var marks=[55,50,40,45,20];
+  function check (value){
+    return value>30;
+    
+  }
+  document.writeln(marks.every(check));
+</script>
+<script type="text/JavaScript">
+  var arr=['a','b',['c','d']];
+  var newArr=arr.flat();
+
+  document.write("after the new line"+newArr);
+
+</script>
+
+
+</body>
+</html>
